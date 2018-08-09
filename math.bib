@@ -295,7 +295,17 @@
   series =       "Collection langages et algorithmes de l'informatique",
   publisher = 	 "\'Editions Technip",
   year = 	 "1978",
-  url = 	 "Paris",
+  address = 	 "Paris",
+  OPTannote = 	 ""
+}
+
+@Book{mBRE12a,
+  author = 	 "R. M. Bremner",
+  title = 	 "Lattice Basis Reduction: An Introduction to the {LLL} Algorithm and Its Applications",
+  series =       " Pure and Applied Mathematics",
+  publisher = 	 "Chapman \& Hall, CRC Press",
+  year = 	     "2012",
+  address = 	 "Boca Raton, FL, USA",
   OPTannote = 	 ""
 }
 
@@ -901,6 +911,14 @@
   pages ="127--138",
   year = "1972"}
 
+@ARTICLE {mHOB98a,
+  author = "J. D. Hobby",
+  title = "A natural lattice basis problem with applications",
+  journal ="Mathematics of Computation",
+  volume = "67",
+  pages ="1149--1161",
+  year = "1998" }
+
 @BOOK {mHUA81a,
 	AUTHOR="L. Hua and Y. Wang",
 	TITLE="Applications of Number Theory to Numerical Analysis",
@@ -1060,6 +1078,12 @@
   year      = {2008},
   pages     = {283--323}
 }
+
+@BOOK {mLAG1773a,
+   AUTHOR = "J. L. Lagrange",
+    TITLE = {Recherches d'arithm\'etique},
+PUBLISHER = {Nouveaux mémoires de l'Académie royale des sciences et belles-lettres de Berlin},
+     YEAR = {1773} }
 
 @BOOK {mLAN73a,
    AUTHOR = "S. Lang",
@@ -1320,6 +1344,41 @@ url = "http://www.sciencedirect.com/science/article/pii/S0885064X03000050"
 	PUBLISHER="Springer-Verlag",
 	YEAR={1984}  }
 
+@Article{mNEU17a,
+author="Neumaier, Arnold",
+title="Bounding Basis Reduction Properties",
+journal="Designs, Codes and Cryptography",
+year="2017",
+volume="84",
+number="1",
+pages="237--259",
+abstract="The paper describes improved analysis techniques for basis reduction that allow one to prove strong complexity bounds and reduced basis guarantees for traditional reduction algorithms and some of their variants. This is achieved by a careful exploitation of the linear equations and inequalities relating various bit sizes before and after one or more reduction steps.",
+Xdoi="10.1007/s10623-016-0273-9",
+Xurl="https://doi.org/10.1007/s10623-016-0273-9"
+}
+
+@book{mNGU10a,
+editor="Nguyen, Phong Q. and Vall{\'e}e, Brigitte",
+Title="The {LLL} Algorithm: Survey and Applications",
+year="2010",
+publisher="Springer Verlag",
+address="Berlin, Heidelberg",
+isbn="978-3-642-02295-1",
+}
+
+@Incollection{mNGU10l,
+author="Nguyen, Phong Q.",
+title="Hermite Constants and Lattice Algorithms",
+bookTitle="The {LLL} Algorithm: Survey and Applications",
+editor="Nguyen, Phong Q. and Vall{\'e}e, Brigitte",
+year="2010",
+publisher="Springer Verlag",
+address="Berlin, Heidelberg",
+pages="19--69",
+Xdoi="10.1007/978-3-642-02295-1_4",
+Xurl="https://doi.org/10.1007/978-3-642-02295-1_4"
+}
+
 @article {mNIE90a,
    AUTHOR = {Niederreiter, Harald},
     TITLE = {A short proof for explicit formulas for discrete logarithms in
@@ -1459,8 +1518,17 @@ url = "http://www.sciencedirect.com/science/article/pii/S0885064X03000050"
                Reduced Bases with Applications",
 	JOURNAL={ACM SIGSAM Bulletin},
 	VOLUME={15},
-	YEAR={1961},
+	YEAR={1981},
 	PAGES={37--44}  }
+
+@ARTICLE {mPOH87a,
+	AUTHOR="M. Pohst",
+	TITLE="A modification of the LLL reduction algorithm",
+	journal = {Journal of Symbolic Computation},
+	volume = 4,
+	year = {1987},
+	pages={123–-127}
+  }
 
 @TECHREPORT {mPOL93a,
 	AUTHOR="D. S. G. Pollock ",
@@ -1586,6 +1654,18 @@ url = "http://www.sciencedirect.com/science/article/pii/S0885064X03000050"
 	PAGES={1676--1679}
 }
 
+@article{mSCH87a,
+author = "C. P. Schnorr",
+title = "A hierarchy of polynomial time lattice basis reduction algorithms",
+journal = "Theoretical Computer Science",
+volume = "53",
+number = "2",
+pages = "201--224",
+year = "1987",
+Xdoi = "https://doi.org/10.1016/0304-3975(87)90064-8",
+Xurl = "http://www.sciencedirect.com/science/article/pii/0304397587900648",
+}
+
 @Inproceedings{mSCH91a,
 author="Schnorr, C. P. and Euchner, M.",
 editor="Budach, L.",
@@ -1599,6 +1679,32 @@ pages="68--85",
 isbn="978-3-540-38391-8",
 doi="10.1007/3-540-54458-5_51",
 url="http://dx.doi.org/10.1007/3-540-54458-5_51"
+}
+
+@article{mSCH94a, 
+ author={Schnorr, C. P.}, 
+ title={Block Reduced Lattice Bases and Successive Minima}, 
+ volume={3}, 
+ XDOI={10.1017/S0963548300001371}, 
+ number={4}, 
+ journal={Combinatorics, Probability and Computing}, 
+ Xpublisher={Cambridge University Press}, 
+ year={1994}, 
+ pages={507--522}}
+
+@Incollection{mSCH10a,
+author="Schnorr, Claus Peter",
+editor="Nguyen, Phong Q. and Vall{\'e}e, Brigitte",
+title="Progress on {LLL} and Lattice Reduction",
+bookTitle="The {LLL} Algorithm: Survey and Applications",
+year="2010",
+publisher="Springer Verlag",
+address="Berlin, Heidelberg",
+pages="145--178",
+abstract="We review variants and extensions of the LLL-algorithm of Lenstra, Lenstra Lov{\'a}sz, extensions to quadratic indefinite forms and to faster and stronger reduction algorithms. The LLL-algorithm with Householder orthogonalisation in floating-point arithmetic is very efficient and highly accurate. We review approximations of the shortest lattice vector by feasible lattice reduction, in particular by block reduction, primal--dual reduction and random sampling reduction. Segment reduction performs LLL-reduction in high dimension, mostly working with a few local coordinates.",
+isbn="978-3-642-02295-1",
+Xdoi="10.1007/978-3-642-02295-1_4",
+Xurl="https://doi.org/10.1007/978-3-642-02295-1_4"
 }
 
 @article {mSID96a,
