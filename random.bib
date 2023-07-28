@@ -693,10 +693,11 @@ pages={309--326}
   author    = {D. Blackman and S. Vigna},
   title     = {Scrambled Linear Pseudorandom Number Generators},
   journal   = {ACM Transactions on mathematical Software},
-  Xvolume    = {},
+  volume    = {47},
+	number =    {4},
+	pages =     {Article 36},
   year      = {2021},
-  url       = {http://arxiv.org/abs/1805.01407},
-	note      = {To appear},
+  url       = {https://doi.org/10.1145/3460772},
   Xeprint    = {1805.01407},
 }
 
@@ -1524,8 +1525,8 @@ pages={Article 156}}
 	AUTHOR="R. Couture and P. L'Ecuyer",
 	TITLE="Lattice Computations for Random Numbers",
 	JOURNAL={Mathematics of Computation},
-        VOLUME={69},
-        NUMBER={230},
+  VOLUME={69},
+  NUMBER={230},
 	YEAR={2000},
 	PAGES={757--765}  }
 
@@ -2820,6 +2821,15 @@ Xurl="http://dx.doi.org/10.1007/978-3-319-04696-9_10"
         YEAR = {2001},
         PAGES = {27--34}  }
 
+@article {rENT02a,
+	author = {K. Entacher and T. Schell and A. Uhl},
+	TITLE="Efficient lattice assessment for {LCG} and
+         {GLP} parameter searches",
+	JOURNAL={Mathematics of Computation},
+  VOLUME={71},
+	YEAR={2002},
+	PAGES={1231--1242}  }
+
 @article{rENT03a,
   author = {K. Entacher and T. Schell and W. C. Schmid and A. Uhl},
   journal = {Parallel Algorithms and Applications},
@@ -3427,9 +3437,9 @@ Xurl="http://dx.doi.org/10.1007/s00013-014-0698-1"
   year={2018}
 }
 
-@inbook{rGOD19a,
+@incollection{rGOD19a,
   author={T. Goda and K. Suzuki},
-  title={Recent advances in higher order quasi-Monte Carlo methods},
+  title={Recent advances in higher order quasi-{Monte Carlo} methods},
   booktitle={Discrepancy Theory},
 	editors={D. Bilyk and J. Dick and F. Pillichshammer},
   publisher = {De Gruyter}, 
@@ -3437,14 +3447,15 @@ Xurl="http://dx.doi.org/10.1007/s00013-014-0698-1"
   year={2019}
 }
 
-@misc{rGOD22a,
+@article{rGOD22a,
       title={Construction-free median quasi-{Monte Carlo} rules for function spaces with unspecified 
 			       smoothness and general weights}, 
       author={Takashi Goda and Pierre L'Ecuyer},
       year={2022},
-      eprint={2201.09413},
-      archivePrefix={arXiv},
-      primaryClass={math.NA}
+			volume={44},
+			number={4},
+			pages={A2765--A2788},
+      arXiv={2201.09413},
 }
 
 @Book{rGOL67a,
@@ -4924,6 +4935,7 @@ Xurl="https://doi.org/10.1023/A:1023605123264"
 	AUTHOR="P. L'Ecuyer",
 	TITLE="Efficient and Portable 32-Bit Random Variate Generators",
 	BOOKTITLE={Proceedings of the 1986 Winter Simulation Conference},
+	editor = {J. R. Wilson and J. O. Henriksen and S. D. Roberts},
 	YEAR={1986},
 	PAGES={275--277}  }
 
@@ -5844,8 +5856,9 @@ year = {2015},
   year =	 {2021},
   publisher =	 {IEEE Press},
 	Xpublisher = {Piscataway, New Jersey: Institute of Electrical and Electronics Engineers, Inc.},
-  pages =	 {},
-  note =  {see \url{https://www-labs.iro.umontreal.ca/~lecuyer/myftp/papers/wsc21rng.pdf}}
+  pages =	 {1--16},
+	doi={10.1109/WSC52266.2021.9715397},
+  OPTnote =  {see \url{https://www-labs.iro.umontreal.ca/~lecuyer/myftp/papers/wsc21rng.pdf}}
 }
 
 @inproceedings{rLEE94a,
@@ -6831,7 +6844,7 @@ Xlanguage={English}
 	AUTHOR="M. Matsumoto and M. Saito and K. Matoba",
 	TITLE="A Computable Figure of Merit for Quasi-{Monte Carlo} Point Sets",
 	JOURNAL={Mathematics and Computers in Simulation},
-         VOLUME={83},
+  VOLUME={83},
 	NUMBER={287},
 	YEAR={2014},
 	PAGES={1233--1250}  }
