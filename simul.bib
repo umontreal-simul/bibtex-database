@@ -425,7 +425,6 @@ Xurl="https://doi.org/10.1007/s11538-018-0442-2"
   pages =	 {279--318},
   year =	 {1986},
   volume =	 {3-4},
-  OPTannote = 	 {}
 }
 
 @ARTICLE {sBIS93a,
@@ -435,9 +434,29 @@ Xurl="https://doi.org/10.1007/s11538-018-0442-2"
            Steady-State Simulations",
 	JOURNAL={Management Science},
 	VOLUME={39},
-        NUMBER={8},
+  NUMBER={8},
 	PAGES={1002--1019}  }
 
+@article {sBLA19a,
+  author = 	 {J. Blanchet and K. Murthy},
+  title = 	 {Quantifying distributional model risk via optimal transport},
+  journal = {Mathematics of Operations Research},
+  pages =	 {565--600},
+  year =	 {2019},
+  volume =	 {44},
+	number = {2},
+}
+
+@article {sBLA19b,
+  author = 	 {J. Blanchet and Y. Kang and K. Murthy},
+  title = 	 {Robust {W}asserstein profile inference and applications to machine learning},
+  journal = {Journal of Applied Probabilit},
+  pages =	 {830--857},
+  year =	 {2019},
+  volume = {56},
+	number = {3},
+}
+		
 @InProceedings{sBLO03a,
    author = {W. K. Bloechle and D. Schunk},
    title = {Micro Saint Sharp Simulation Software},
@@ -1065,6 +1084,21 @@ doi = {10.1063/1.1833357},
         ADDRESS={Boca Raton, FL},
         YEAR={2006} }
 				
+@article{sFED23a,
+title = {A comprehensive and biophysically detailed computational model of the 
+         whole human heart electromechanics},
+journal = {Computer Methods in Applied Mechanics and Engineering},
+volume = {410},
+pages = {115983},
+year = {2023},
+doi = {https://doi.org/10.1016/j.cma.2023.115983},
+url = {https://www.sciencedirect.com/science/article/pii/S0045782523001068},
+author = {Marco Fedele and Roberto Piersanti and Francesco Regazzoni and Matteo Salvador and 
+    Pasquale Claudio Africa and Michele Bucelli and Alberto Zingaro and Luca Dede' and Alfio Quarteroni},
+keywords = {Multiphysics and multiscale modeling, Whole-heart modeling, Cardiac electromechanics, 
+    Computational cardiology, High performance computing, Cardiac digital twin},
+}
+
 @BOOK {sFIS73a,
         AUTHOR="G. S. Fishman",
         TITLE={Concepts and Methods in Discrete Event Digital Simulation},
@@ -1121,6 +1155,14 @@ doi = {10.1063/1.1833357},
         PUBLISHER={Springer-Verlag},
         ADDRESS={New York, NY},
         YEAR={2001}  }
+
+@book{sFIS05a,
+  title={A First Course in Monte Carlo},
+  author={Fishman, G. S.},
+  series={Duxbury advanced series},
+  publisher={Thomson Brooks/Cole},
+  year={2006},
+}
 
 @Article{sFOL99a,
   author = 	 {R. D. Foley and D. Golsman},
@@ -1730,6 +1772,18 @@ title = {Fast Discovery of Reliable Subnetworks},
 booktitle = {2010 International Conference on Advances in Social Network Analysis and Mining},
 year =    {2010},
 OPTpages = {??--??}
+}
+
+@article{sHOF08a,
+author = {Marius Hofert},
+title = {Sampling {A}rchimedean copulas},
+journal = {Computational Statistics and Data Analysis},
+volume = {52},
+number = {12},
+pages = {5163--5174},
+year = {2008},
+url = {https://www.sciencedirect.com/science/article/pii/S0167947308002910},
+abstract = {The challenge of efficiently sampling exchangeable and nested Archimedean copulas is addressed. Specific focus is put on large dimensions, where methods involving generator derivatives are not applicable. Additionally, new conditions under which Archimedean copulas can be mixed to construct nested Archimedean copulas are presented. Moreover, for some Archimedean families, direct sampling algorithms are given. For other families, sampling algorithms based on numerical inversion of Laplace transforms are suggested. For this purpose, the Fixed Talbot, Gaver Stehfest, Gaver Wynn rho, and Laguerre series algorithm are compared in terms of precision and runtime. Examples are given, including both exchangeable and nested Archimedean copulas.}
 }
 
 @ARTICLE {sHON09a,
@@ -2511,10 +2565,10 @@ pages = {1482--1491}
   booktitle = 	 {Proceedings of the 2005 Winter Simulation Conference},
   pages =	 {611--620},
   year =	 {2005},
-  Xeditor =	 {M. E. Kuhl and N. M. Steiger and F. B. Armstrong and J. A. Joines},
-  Xpublisher =	 {{IEEE} Press},
-	publisher = {Piscataway, New Jersey: Institute of Electrical and Electronics Engineers, Inc.},
-  address = {Piscataway, NJ},
+  XXeditor =	 {M. E. Kuhl and N. M. Steiger and F. B. Armstrong and J. A. Joines},
+  publisher =	 {{IEEE} Press},
+	XXpublisher = {Piscataway, New Jersey: Institute of Electrical and Electronics Engineers, Inc.},
+  XXaddress = {Piscataway, NJ},
   OPTannote = 	 {Java simulation package}
 }
 
@@ -2556,11 +2610,11 @@ url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/itl2.10},
 
 @unpublished {sLEC23s,
         AUTHOR="P. L'Ecuyer",
-        TITLE={Stochastic Simulation and Monte Carlo Methods},
+        TITLE={Stochastic Simulation and {Monte Carlo} Methods},
         xxxPUBLISHER={},
         ADDRESS={DIRO, Universit\'e de Montr\'eal},
-        note = {Draft of a textbook in preparation, 
-				        notes for a graduate simulation course},
+        note = {Draft Textbook, \url{https://www-labs.iro.umontreal.ca/~lecuyer/ift6561/book.pdf}},
+				xnote = {notes for a graduate simulation course},
 			  URL = {https://www-labs.iro.umontreal.ca/~lecuyer/ift6561/book.pdf},
         YEAR={2023} }
 
@@ -2770,17 +2824,29 @@ url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/itl2.10},
         ADDRESS={Providence, Rhode Island},
         YEAR={2002}  }
 
-
 @book{sMAI12a,
 author = {Mai, Jan-Frederik and Scherer, Matthias},
 title = {Simulating Copulas},
-publisher = {IMPERIAL COLLEGE PRESS},
+publisher = {Imperial College Press},
 year = {2012},
 doi = {10.1142/p842},
 address = {},
 edition   = {},
 xURL = {https://www.worldscientific.com/doi/abs/10.1142/p842},
 xeprint = {https://www.worldscientific.com/doi/pdf/10.1142/p842}
+}
+
+@Inbook{sMAI14a,
+author="Mai, Jan-Frederik and Scherer, Matthias",
+title="How to Simulate Multivariate Distributions?",
+bookTitle="Financial Engineering with Copulas Explained",
+year="2014",
+publisher="Palgrave Macmillan UK",
+address="London",
+pages="74--84",
+isbn="978-1-137-34631-5",
+doi="10.1057/9781137346315_5",
+url="https://doi.org/10.1057/9781137346315_5"
 }
 
 @ARTICLE {sMAR92a,
@@ -2930,7 +2996,7 @@ xeprint = {https://www.worldscientific.com/doi/pdf/10.1142/p842}
 
 @book {sMCQMCa,
   author = {MCQMC},
-  title = 	 {{M}onte {C}arlo and Quasi-{M}onte {C}arlo Methods 2016, 2014, ...},
+  title = 	 {{M}onte {C}arlo and Quasi-{M}onte {C}arlo Methods 2022, 2020, etc.},
   Xeditor =	 {P. L'Ecuyer and A. B. Owen},
   publisher =	 {Springer-Verlag},
   address =	 {Berlin},
@@ -2945,6 +3011,15 @@ xeprint = {https://www.worldscientific.com/doi/pdf/10.1142/p842}
         Washington DC, United States},
 	year={2011},
 	publisher={Transportation Research Board},
+}
+
+@inproceedings{sNAN83a,
+    author = {Nance, Richard E.},
+    title = {A Tutorial View of Simulation Model Development},
+    booktitle = {Proceedings of the 1983 Winter Simulation Conference},
+    year = {1983},
+    publisher = {IEEE Press},
+    pages = {325--331}, 
 }
 
 @MANUAL {sNAT81a,
@@ -3003,6 +3078,13 @@ xeprint = {https://www.worldscientific.com/doi/pdf/10.1142/p842}
   address  =     {Piscataway, New Jersey},
 }
 
+@book{sNEL13a,
+   author = {B. L. Nelson},
+   year = 2013,
+   title = {Foundations and Methods of Stochastic Simulation: A First Course},
+   publisher = {Springer}
+}
+
 @InProceedings{sNOR03a,
    author = {W. B. Nordgren},
    title = {{FlexSim} Simulation Environment},
@@ -3011,6 +3093,13 @@ xeprint = {https://www.worldscientific.com/doi/pdf/10.1142/p842}
   YEAR =         {2003},
   editor = {S. Chick and P. J. S{\'a}nchez and D. Ferrin and D. J. Morrice},
   pages = {197--200}
+}
+
+@book{sOWE23a,
+   author = {Art B. Owen},
+   year = 2023,
+   title = {Monte Carlo theory, methods and examples},
+   publisher = {\url{https://artowen.su.domains/mc/}}
 }
 
 @article{sPAD16a,
@@ -3071,6 +3160,16 @@ doi = {10.1063/1.4944952},
    number = {1\&2},
    pages = {223--252}
 }
+
+@article{sQUA23a,
+    author = "Quarteroni, A. and Dede', L. and Regazzoni, F. and Ch. Vergara",
+    title = "A mathematical model of the human heart suitable to address clinical problems",
+    journal = "Japan Journal of Industrial and Applied Mathematics",
+    Xvolume = "",
+    Xnumber = "",
+    Xpages = "",
+    year = "2023",
+    url = "https://doi.org/10.1007/s13160-023-00579-6" }
 
 @article{sRAJ93a,
     author = "S. Rajasekaran and K. W. Ross",
@@ -3827,6 +3926,14 @@ pages =  {2612--2623}
   note =	 {Published every year by {ACM} and {IEEE Press};
             see \url{https://informs-sim.org/} and \url{http://www.wintersim.org/}},
   year =	 {2018},
+}
+
+@misc {sWSC23a,
+  author = {WSC},
+  title =  {Proceedings of the Winter Simulation Conference},
+  note =	 {Published every year by {ACM} and {IEEE Press};
+            see \url{https://informs-sim.org/} and \url{http://www.wintersim.org/}},
+  year =	 {2023},
 }
 
 @Article{sYIN18a,
