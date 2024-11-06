@@ -1,32 +1,37 @@
 # bibtex-database
 BiBTeX database
 
-This repository contains a copy of the BiBTeX database of the Simulation and Optimization Laboratory at the DIRO, Université de Montréal. See [HERE](http://www.iro.umontreal.ca/~lecuyer/tex-bibtex.html) for details.
+This repository contains a copy of the [BiBTeX database](https://www.iro.umontreal.ca/~lecuyer/tex-bibtex.html)
+of Pierre L'Ecuyer, DIRO, Université de Montréal. It is used mainly to add BiBTeX references and citations 
+in the documentation of software libraries produced by LaTeX, Doxygen, and similar tools. 
 
-## How to use this BiBTeX database in your project?
+## How to use this BiBTeX database in your Git project?
 
-This BiBTeX database is meant to be used as a [Git submodule](https://git-scm.com/docs/git-submodule). What follows explains how to use it in your project.
+This BiBTeX database is meant to be used as a [Git submodule](https://git-scm.com/docs/git-submodule). 
 
-### Adding the database to your project
-Say your project is contained in the repository `umontreal-simul/my_repo` and that you wan to add the bibliography in the `doc/bib` folder.
+### To add it to your project
 
-First, open a terminal in your local clone of `umontreal-simul/my_repo`. Then, type the command:
-
-```
-git add submodule https://github.com/umontreal-simul/bibtex-database/ doc/bib
-```
-
-This will clone the BiBTeX database inside your repository and add it a submodule. Note that Git commands are not 'recursive' and do not automatically apply to submodules. So if you want to clone your repository containing a submodule, you may want to use
+If you have a Git project in the repository `git/my_repo` and want to add the .bib files in the `doc/bib` subfolder, 
+open a terminal in your local clone of `git/my_repo` and type:
 
 ```
-git clone --recurse https://github.com/umontreal-simul/my_repo
+git submodule add https://github.com/umontreal-simul/bibtex-database/ doc/bib
+```
+
+This will clone the BiBTeX database inside your repository and add it a submodule. 
+Note that Git commands are not 'recursive' and do not automatically apply to submodules, 
+so if you want to clone your repository together with the submodule, you should use
+
+```
+git clone --recurse https://github.com/my_repo
 ```
 
 so that the submodules are also cloned.
 
 ### Updating the version of the database
 
-If you have already added the database as a submodule of your repository and you want to replace your current version of the database with the last one, open a terminal in your local clone of `umontreal-simul/my_repo`, then type the following commands:
+If you already have the database as a submodule and just want to update it to the latest version,
+open a terminal in `git/my_repo` and type:
 
 ```
 cd doc/bib
