@@ -45,3 +45,10 @@ git push
 
 You can find more details on Git submodules in the [Git documentation](https://git-scm.com/docs/).
 
+### Updating this database itself
+
+The latest versions of this database is always maintained on Dropbox. To update files in this repository, 
+it suffices to upload the new files using "add file -> upload files", assuming that you have the right to do so.
+
+
+
