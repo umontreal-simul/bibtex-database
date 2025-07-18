@@ -1648,6 +1648,17 @@ pages = {1263--1274}
      publisher    = {AMS},
      PAGES        = {193-206}    }
 
+@InProceedings{vDAM09a,
+author="Dammertz, S. and Dammertz, H. and Keller, A.",
+editor="L'Ecuyer, Pierre and Owen, Art B.",
+title="Efficient Search for Two-Dimensional Rank-1 Lattices with Applications in Graphics",
+booktitle="Monte Carlo and Quasi-Monte Carlo Methods 2008",
+year="2009",
+publisher="Springer",
+address="Berlin, Heidelberg",
+pages="271--287",
+}
+
 @ARTICLE {vDAV86a,
 	AUTHOR="B. R. Davis",
 	YEAR={1986},
@@ -1963,8 +1974,8 @@ pages = {1263--1274}
 @article{vDIC22a,
   old = {vDIC21a},
   author    = {J. Dick and T. Goda and K. Suzuki},
-  title     = {Component-by-Component Construction of Randomized Rank-1 Lattice Rules Achieving Almost
-              the Optimal Randomized Error Rate},
+  title     = {Component-by-Component Construction of Randomized 
+	   Rank-1 Lattice Rules Achieving Almost the Optimal Randomized Error Rate},
   journal   = {Mathematics of Computation},
   volume    = {91},
   year      = {2022},
@@ -2018,6 +2029,14 @@ pages = {2705--2720}
 	VOLUME={65},
 	NUMBER={6},
 	PAGES={1678--1695}  }
+
+@ARTICLE{vDON22a,
+ AUTHOR={G. Y.~Dong and C.~Lemieux},
+ TITLE={Dependence Properties of Scrambled {H}alton Sequences},
+ JOURNAL={Mathematics and Computers in Simulation},
+ VOLUME={200},
+ PAGES={240--262},
+ YEAR={2022}}
 
 @Article{vDUF95a,
   author = 	 {D. Duffie and P. Glynn},
@@ -2757,6 +2776,15 @@ PUBLISHER = {Springer-Verlag},
   publisher =	 {Springer-Verlag},
 }
 
+@unpublished{vGOB24a,
+  TITLE = {Accelerated Convergence of Error Quantiles using Robust Randomized Quasi {Monte Carlo} Methods},
+  AUTHOR = {Gobet, E. and Lerasle, M. and M{\'e}tivier, D.},
+  xURL = {https://hal.science/hal-03631879},
+  NOTE = {Preprint, \url{https://hal.science/hal-03631879}},
+  YEAR = {2024},
+  KEYWORDS = {Robust statistics ; Quasi Monte Carlo ; PAC bounds},
+}
+
 @article{vGNE07a,
   author    = {M. Gnewuch and R. Lindlol and R. Schneider and A. Srivastav},
   title     = {Cubature Formulas for Function Spaces with Moderate Smoothness},
@@ -2764,6 +2792,18 @@ PUBLISHER = {Springer-Verlag},
   volume    = {23},
   year      = {2007},
   pages     = {828--850},
+}
+
+@article{vGNE24a,
+  author = {Gnewuch, M. and Kritzer, P. and Owen, A. B. and Pan, Z.},
+  title = {Computable error bounds for quasi-{Monte Carlo} using points with
+           non-negative local discrepancy},
+  journal   = {Information and Inference: A Journal of the {IMA}},
+  volume    = {13},
+	number    = {3}, 
+  year      = {2024},
+  pages     = {iaae021},
+	URL       = {https://doi.org/10.1093/imaiai/iaae021},
 }
 
 %                 Compiled by Per H. Christensen
@@ -2814,9 +2854,8 @@ PUBLISHER = {Springer-Verlag},
 
 @inproceedings {vGOR99a,
   AUTHOR = "C. Gorg and O. Fuss",
-  TITLE = "Simulating Rare Event Details of
-ATM Delay Time Distributions with RESTART/LRE",
-  booktitle = 	 {Proceedings of the IEE International Teletrafic Congress, ITC16}, 
+  TITLE = "Simulating Rare Event Details of {ATM} Delay Time Distributions with {RESTART/LRE}",
+  booktitle = 	 {Proceedings of the {IEE} International Teletrafic Congress, {ITC16}}, 
   pages =	 {777--786},
   year =	 {1999},
   publisher =	 {Elsevier}
@@ -3414,6 +3453,16 @@ year = "2001",
   number =       {9},
   pages =     {1238--1249},
   OPTannote =      {}
+}
+
+@misc{vJAI25a,
+      title={Empirical {B}ernstein and betting confidence intervals 
+			   for randomized quasi-{M}onte {C}arlo}, 
+      author={Aadit Jain and Fred J. Hickernell and Art B. Owen and Aleksei G. Sorokin},
+      year={2025},
+      archivePrefix={arXiv},
+      primaryClass={math.NA},
+      url={https://arxiv.org/abs/2504.18677}, 
 }
 
 @UNPUBLISHED{vJAM96a,
@@ -4829,14 +4878,14 @@ year = {2020},
 }
 
 @InProceedings{vLEC24a,
-  author = "P. L'Ecuyer and Youssef Cherkanihassani and Mohamed El Amine Derkaoui",
+  author = "P. L'Ecuyer and Y. Cherkanihassani and M. El Amine Derkaoui",
   title = "Pre-Scrambled Digital Nets for Randomized Quasi-{Monte Carlo}",
   booktitle = {Proceedings of the 2024 Winter Simulation Conference},
   OPTeditor = 	 {},
   year =	 {2024},
-	note = {Invited paper, forthcoming},
-  Xpublisher =	{IEEE Press},
-  Xpages =	 {445--456},
+	Xnote = {Invited paper},
+  publisher =	{IEEE Press},
+  pages =	 {443--454},
 }
 
 @ARTICLE {vLEH92a,
@@ -5071,12 +5120,17 @@ Xdoi="10.1007/s10626-017-0247-8",
 @article{vLEM08a,
      new = {vFAU09a},
     author = "H. Faure and C. Lemieux",
-    title = "Generalized {H}alton Sequences in 2008: A Comparative Study",
-    journal = "{ACM} Transactions on Modeling and Computer Simulation",
-    volume =  {19},
-    number = {4},
-    pages =	 {Article 15},
-    year =   {2009},
+}
+
+@article{vLEM18a,
+author = {Lemieux, Christiane},
+title = {Negative Dependence, Scrambled Nets, and Variance Bounds},
+journal = {Mathematics of Operations Research},
+volume = {43},
+number = {1},
+pages = {228--251},
+year = {2018},
+doi = {10.1287/moor.2017.0861},
 }
 
 @ARTICLE{vLEW84a,
@@ -5979,7 +6033,7 @@ year     = 1992}}
 
 @article {vOWE13a,
   author = 	 {A. B. Owen},
-  title = 	 {Better estimation of small Sobol’ sensitivity indices},
+  title = 	 {Better estimation of small {S}obol' sensitivity indices},
   journal = 	 {{ACM} Transactions on Modeling and Computer Simulation},
   year = 	 {2013},
   volume =	 {23},
@@ -5994,6 +6048,49 @@ year     = 1992}}
   institution =  {Department of Statistics, Stanford University},
   OPTpages = 	 {},
   note = {\url{https://arxiv.org/abs/1706.02808}},
+}
+
+@article {vPAN23a,
+  author = 	 {Z. Pan and A. B. Owen},
+  title = 	 {Super-polynomial accuracy of one dimensional randomized nets using the median of means},
+  journal =  {Mathematics of Computation},
+  year = 	 {2023},
+  volume =	 {92},
+	number = {340},
+  pages = 	 {805--837}
+}
+
+@article {vPAN24a,
+  author = 	 {Z. Pan and A. B. Owen},
+  title = 	 {Super-polynomial accuracy of multidimensional randomized nets using the median of means},
+  journal =  {Mathematics of Computation},
+  year = 	 {2024},
+  volume =	 {93},
+	number = {349},
+  pages = 	 {2265--2289}
+}
+
+@unpublished {vPAN24b,
+  author = 	 {Z. Pan and A. B. Owen},
+  title = 	 {Skewness of a randomized quasi-{Monte Carlo} estimate},
+  OPTjournal =  {Mathematics of Computation},
+  year = 	 {2024},
+  OPTvolume =	 {},
+	OPTnumber = {},
+  OPTpages = 	 {},
+	note = {Preprint}
+}
+
+@unpublished {vPAN25a,
+  author = 	 {Z. Pan},
+  title = 	 {Automatic Optimal-Rate Convergence of Randomized Nets Using Median of Means},
+  journal =  {Mathematics of Computation},
+  year = 	 {2025},
+  OPTvolume =	 {},
+	OPTnumber = {},
+  OPTpages = 	 {},
+	note = {Preprint},
+	URL = {https://arxiv.org/abs/2411.01397}
 }
 
 @article {vPAP96a,
@@ -7404,6 +7501,17 @@ abstract = "Digital sequences and nets are among the most popular kinds of low d
 	VOLUME={91},
   NUMBER={435},
 	PAGES={1245--1253}  }
+
+@unpublished {vZHA24a,
+	AUTHOR="B. Zhang",
+	YEAR={2024},
+	TITLE="Median-of-Means Sampling for the {K}eister Function",
+	xJOURNAL={},
+	xVOLUME={},
+  xNUMBER={},
+	xPAGES={},
+	note= {manuscript, \url{https://arxiv.org/html/2501.10440v1}}
+	}
 
 
 
