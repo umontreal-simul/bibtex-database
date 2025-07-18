@@ -18,7 +18,8 @@ open a terminal in your local clone of `git/my_repo` and type:
 git submodule add https://github.com/umontreal-simul/bibtex-database/ doc/bib
 ```
 
-This will clone the BiBTeX database inside your repository and add it a submodule. 
+This will add the BiBTeX database as a submodule in doc/bib inside your repository. 
+The .bib files will be in doc/bib/*.bib.
 Note that Git commands are not 'recursive' and do not automatically apply to submodules, 
 so if you want to clone your repository together with the submodule, you should use
 
