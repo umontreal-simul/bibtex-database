@@ -48,8 +48,9 @@ You can find more details on Git submodules in the [Git documentation](https://g
 
 ### Updating this database itself
 
-The latest version of this database is always maintained on Dropbox. To update files in this repository, 
-it suffices to upload the new files using "add file -> upload files", assuming that you have the right to do so.
+The latest version of this database is always maintained on Dropbox; see the link at the top of this page.
+To update the .bib files in this repository, it suffices to upload the latest .bib files using 
+"add file -> upload files", assuming that you have the right to do so.
 
 
 
